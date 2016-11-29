@@ -1,0 +1,16 @@
+Bakgrundsfärg
+#31343F
+
+Stora rubriken
+#5BDA54, 36px, Verdana, bold
+
+Underrubriken
+#fff, 20px, Verdana
+
+Länkar
+#fff, 12px, Verdana, bold
+
+Banor-rubriken
+#5BDA54, 28px, Verdana, bold
+
+
