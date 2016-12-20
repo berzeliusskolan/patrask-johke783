@@ -1,0 +1,239 @@
+@media screen and (min-width:1200px) {
+    body{
+        background: #31343F;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        font-family: verdana;
+        color: #5BDA54;
+        font-size:36px;
+        font-weight: bold;
+        padding: 10px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    h2{
+        color:#5BDA54;
+        font-size: 28px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    h3{
+        color: white;
+        font-family: verdana;
+        padding: 10px;
+        height:30px;
+        font-size:20px;
+        margin-bottom: 55px;
+    }
+    .section{
+        display: flex;
+    }
+    .feat{
+        height: 460px;
+        width:1190px;
+    }
+    .feat-box-right{
+        background-image: url("../img/dude.jpg");
+        background-size: 320px 460px;
+        background-repeat: no-repeat;
+        height:638px;
+        width:320px;
+    }
+    .banor-right ul{
+        text-transform: uppercase;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .banor-right li{
+          padding:15px;
+    }
+    .sect-banor{
+        width:1190px;
+    }
+    .nav{
+        display: flex;
+        padding-top: 30px;
+    }
+    .nav-item{
+        text-transform: uppercase;
+        padding: 12px;
+        font-family: verdana;
+        font-weight: bold;
+    }
+    .nav-link{
+        color: white;
+    }
+    .active{
+        color:#5BDA54;
+    }
+    .btn{
+        display:inline-block;
+        font-size:16px;
+        font-family: verdana;
+        height: 30px;
+        width: 160px;
+        background: #5BDA54;
+        color: white;
+        padding-top:12px;
+        margin: 10px;
+        text-align: center;
+        border: none;
+        border-radius: 15px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .banor-left{
+        background-image: url("../img/action.jpg");
+        background-size: 900px 500px;
+        width:900px;
+        height:335px;
+    }
+    .banor-right{
+        background-color: #D4D2D4;
+        width: 330px;
+        font-family: verdana;
+        font-size: 20px;
+    }
+    .sect-teaser{
+        height: 250px;
+        width: 1190px;
+        display: flex;
+    }
+    .sect-teaser a {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #5BDA54;
+        font-family: verdana;
+        font-weight: bold;
+        font-size: 30px;
+        display: flex;
+        padding: 10px;
+    }
+    .teaser-1{
+        background-image: url("../img/ready.jpg");
+        background-size: 720px 400px;
+        width: 645px;
+    }
+    .teaser-2{
+        background-image: url("../img/guns.jpg");
+        background-size: 720px 400px;
+        width: 645px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    body{
+        width: 100%
+    }
+    .feat-box-left{
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(../img/dude.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        text-align: center;
+        background-size: cover;
+        padding-bottom: 40px;
+    }
+    h1{
+        font-family: verdana;
+        color: #5BDA54;
+        font-size:36px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 70px;
+    }
+    h3{
+        color: #fff;
+        font-size: 20px;
+        font-family: verdana;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .btn{
+        display:inline-block;
+        font-size:15px;
+        font-family: verdana;
+        height:25px;
+        width: 160px;
+        background: #5BDA54;
+        color: white;
+        padding-top:10px;
+        margin: 10px;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .banor-left{
+        background-image: url("../img/action.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width:100%;
+        height:250px;
+        background-size: cover;
+    }
+    .nav {
+        display:none;
+    }
+    .banor-right{
+        background-color: #D4D2D4;
+        width: 100%;
+        font-family: verdana;
+        font-size: 18px;
+    }
+    .banor-right li{
+        text-transform: uppercase;
+        letter-spacing:2px;
+        line-height: 1.5;
+        padding: 5px
+    }
+    .banor-right ul{
+        display: flex;
+        flex-wrap:wrap;
+        margin-left: 10px;
+    }
+    h2{
+        color:#5BDA54;
+        font-size: 30px;
+        text-align: center;
+        font-family: verdana;
+        font-weight: bold;
+        padding-bottom: 7px
+    }
+    .btn-box{
+        display: flex;
+        justify-content: center;
+    }
+    .teaser-1{
+        background-image: url("../img/ready.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+    }
+    .teaser-2{
+        background-image: url("../img/guns.jpg");
+        width:100%;
+        height:200px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sect-teaser a{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #5BDA54;
+        font-family: verdana;
+        font-weight: bold;
+        font-size: 30px;
+        display: flex;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+
+}
