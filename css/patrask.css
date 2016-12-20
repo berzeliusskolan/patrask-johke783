@@ -1,0 +1,202 @@
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #31343F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+}
+
+.nav {
+    margin-left: 0px;
+    margin-top: 25px;
+    display: flex;
+    color: white;
+    margin-bottom: 70px;
+    background-color: #31343F;
+}
+
+.nav-link {
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    color: white;
+    font-family: "Verdana";
+}
+
+.active {
+    color: #5BDA54;
+    margin-left: 0px;
+}
+
+h1 {
+    margin-top: 20%;
+    color: #5BDA54;
+    font-size: 32px;
+    font-family: "Verdana";
+    font-weight: bold;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+h2 {
+    color: #5BDA54;
+    font-family: "Verdana";
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.banor-right {
+    background-color: #bfbfbf;
+    width: 34%;
+}
+
+h3 {
+    color: white;
+    font-family: "Verdana", bold;
+    width: 450px;
+    margin-bottom: 15px;
+}
+
+
+.sect-teaser {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
+
+.btn-box {
+    background-color: #5BDA54;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+
+.feat-box-right {
+    background: url(../img/dude.jpg);
+    height: 370px;
+    width: 34%;
+    background-size: cover
+}
+
+.feat-box-left {
+    margin: 0px;
+    width: 700px;
+}
+
+.banor-left {
+    background: url(../img/action.jpg);
+    background-size: cover;
+    width: 73%;
+    height: 260px;
+}
+
+.teaser-1 {
+    background: url(../img/ready.jpg);
+    width: 50%;
+    height: 200px;
+    color: #5BDA54;
+}
+
+.teaser-2 {
+    background: url(../img/guns.jpg);
+    width: 50%;
+    height: 200px;
+}
+
+.teaser-box a {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    color: #5BDA54;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-right: 20px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    color: #333333;
+    margin-left: 25px;
+}
+
+li {
+    margin-top: 5px;
+    font-family: "Verdana";
+}
+
+@media (max-width: 580px) {
+    .section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav {
+        display: none;
+    }
+    .feat {
+        background: url(../img/dude.jpg);
+        background: cover;
+        width: 100%
+        
+    }
+    .sect-banor {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banor-left {
+    
+        width: 100%;
+    }
+    .banor-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .teaser-1 {
+        width: 100%;
+    }
+    .teaser-2 {
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+    }
+}
