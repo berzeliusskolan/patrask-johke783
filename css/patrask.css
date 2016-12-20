@@ -81,6 +81,9 @@ h3{
     padding: 30px
 }
 
+
+
+
 .btn{
     display:block;
     width:160px;
@@ -165,7 +168,7 @@ h3{
 }
 
 .feat{
-    background-image: url("../img/dude.jpg""); 
+    background-image: url("../img/"); 
 }
 .sect-banor{
     display: flex;
