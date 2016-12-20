@@ -1,0 +1,210 @@
+@media screen and (min-width: 580px) {
+    body {
+        background-color: #31343F;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav {
+        display: flex;
+        padding-top: 20px;
+        color: white;
+        font-family: verdana;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .nav-item {
+        padding-right: 10px
+    }
+    h1 {
+        color: #5bda54;
+        font-size: 36px;
+        margin-top: 70px;
+        margin-bottom: 40px;
+        font-family: verdana, bold;
+    }
+    h3 {
+        color: white;
+        margin-top: 30px;
+        font-family: verdana, bold;
+        font-size: 20px;
+        margin-bottom: 50px;
+        line-height: 1.5;
+    }
+    .btn-box {
+        width: 100%;
+    }
+    .btn {
+        height: 25px;
+        width: 160px;
+        border-radius: 10px;
+        background-color: #5BDA54;
+        display: block;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: verdana, bold;
+    }
+    .active {
+        color: #5BDA54;
+    }
+    .section {
+        margin: 0 auto;
+        display: flex;
+        font-family: verdana, bold;
+        width: 960px;
+    }
+    .feat-box-left {
+        width: 67%;
+    }
+    .feat-box-right {
+        background-image: url(../img/dude.jpg);
+        background-size: cover;
+        background-position: center top;
+        height: 400px;
+        width: 33%;
+    }
+    .sect-banor {
+        height: 230px;
+    }
+    .banor-left {
+        background-image: url(../img/action.jpg);
+        height: 230px;
+        width: 67%;
+        background-position: center top;
+        background-size: cover;
+    }
+    .banor-right {
+        background: #D3D3D3;
+        width: 33%;
+    }
+    .teaser-box {
+        color: #5BDA54;
+    }
+    .teaser-1 {
+        background: url(../img/ready.jpg);
+        height: 200px;
+        width: 50%;
+        background-position: center;
+        background-size: cover;
+    }
+    .teaser-2 {
+        background: url(../img/guns.jpg);
+        height: 200px;
+        width: 50%;
+        background-position: center top;
+        background-size: cover;
+    }
+    h2 {
+        color: #5BDA54;
+        font-size: 28px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .banor-right ul {
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15px;
+        margin-top: 10px;
+        font-family: verdana, bold;
+    }
+    .banor-right ul li {
+        padding-right: 10px;
+    }
+    .teaser-1 a,
+    .teaser-2 a {
+        color: #5BDA54;
+        height: 40px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: block;
+        font-size: 200%;
+        padding-top: 7px;
+    }
+    .banor-right ul li {
+        margin-bottom: 10px;
+    }
+    .sect-banor .btn-box {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav {
+        display none;
+    }
+    .feat {
+        background-size: cover;
+        background-image: url(../img/dude.jpg);
+    }
+    .banor-right {
+        width: 100%;
+    }
+    .banor-left {
+        background-image: url(../img/action.jpg);
+        width: 100%;
+    }
+    .teaser-1 {
+        background: url(../img/ready.jpg);
+        height: 100px;
+        width: 100%;
+    }
+    .teaser-2 {
+        width: 100%;
+        background: url(../img/guns.jpg);
+        height: 100px;
+    }
+    .sect-teaser {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        display: none;
+    }
+    h3 {
+        font-family: verdana, bold;
+        color: white;
+        font-size: 20px;
+    }
+    h1,
+    h2 {
+        color: #5BDA54;
+        font-size: 20px;
+    }
+    .btn {
+        height: 25px;
+        width: 160px;
+        border-radius: 10px;
+        background-color: #5BDA54;
+        display: block;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .teaser-1 a,
+    .teaser-2 a {
+        color: #5BDA54;
+        height: 40px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: block;
+        font-size: 200%;
+        padding-top: 7px;
+    }
+    .feat-box-right {
+         background-color: rgba(0, 0, 0, 0.6);
+    }
+}

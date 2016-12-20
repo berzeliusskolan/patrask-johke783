@@ -12,5 +12,3 @@ Länkar
 
 Banor-rubriken
 #5BDA54, 28px, Verdana, bold
-
-
