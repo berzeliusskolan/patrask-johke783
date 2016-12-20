@@ -1,0 +1,349 @@
+/*   b a k g r u n d : #31343F                      
+     h u v u d r u b r i k : #5BDA54 36px Verdana Bold     */
+
+
+/*d e s k t o p*/
+
+@media (min-width:601px) {
+    .section {
+        /*width:960px;*/
+    }
+    body {
+        background: #31343F;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .feat {
+        /*border: solid thin yellow;*/
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+        color: #5BDA54;
+        font-size: 36px;
+        font-family: verdana;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    h3 {
+        line-height: 30px;
+        color: #fff;
+        font-size: 20px;
+        font-family: verdana;
+        padding-right: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+    }
+    .nav {
+        margin-top:25px;
+        /*flex-direction:row;*/
+        display: flex;
+        /*border: solid thin pink;*/
+    }
+    .nav-item,
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .active {
+        color: #5BDA54;
+    }
+    .btn-box {
+        line-height: 2.3;
+        display: block;
+        text-align: center;
+        background: #5BDA54;
+        margin: 5px;
+        width: 160px;
+        height: 35px;
+        border-radius: 9px;
+        font-size: 15px;
+        
+    }
+    .feat-box-left {
+        /*border: solid thin green;*/
+        width: 640px;
+    }
+    .feat-box-right {
+        /*border: solid thin blue;*/
+        background-image: url("../img/dude.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 380px;
+        width: 320px;
+    }
+    .sect-banor {
+        display: flex;
+        /*border: solid 3px green;*/
+        justify-content: center;
+    }
+    .banor-left {
+        /*border: solid 2px red;*/
+        background-image: url("../img/action.jpg");
+        background-repeat: no-repeat;
+        width: 640px;
+        height: 250px;
+        background-size: cover;
+    }
+    .banor-right {
+        /*border: solid 2px blue;*/
+        background-color: #ccc;
+        width: 320px;
+        /*height: 250px;*/
+        /*font-family: verdana;*/
+        /*font-weight:thin;*/
+        font-size: 20px;
+        color: #fff;
+    }
+    .banor-right .btn-box {
+        display: flex;
+        justify-content: center;
+        margin-left: 80px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        line-height:2.2;
+    }
+    h2 {
+        margin: 10px;
+        font-size: 28px;
+        color: #5BDA54;
+        font-family: verdana;
+        font-weight: bold;
+    }
+    .banor-right li {
+        /*display: flex;*/
+        /*flex-direction:row;*/
+        /*flex-wrap: wrap;*/
+        text-transform: uppercase;
+        padding-top: 5px;
+        font-size: 15px;
+        letter-spacing: 3px;
+        font-family: Verdana;
+        font-weight: thin;
+        padding-bottom: 7px;
+        padding-left: 20px;
+        width:40%;
+    }
+    .banor-right ul {
+        color: black;
+    }
+    .sect-teaser {
+        display: flex;
+        flex-direction: row;
+        /*border:solid thin pink;*/
+        width: 100%;
+        justify-content: center;
+    }
+    .teaser-1 {
+        background-image: url("../img/ready.jpg");
+        /*background-repeat: no-repeat;*/
+        position: relative;
+        background-size: cover;
+        width: 480px;
+        height: 300px;
+    }
+    .teaser-2 {
+        background-image: url("../img/guns.jpg");
+        /*background-repeat: no-repeat;*/
+        width: 480px;
+        height: 300px;
+    }
+    .teaser-2 a {
+        background: rgba(00, 0, 0, 0.6);
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        color: #5BDA54;
+        font-family: Verdana;
+        font-size: 28px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .teaser-1 a {
+        background: rgba(00, 0, 0, 0.6);
+        padding: 10px;
+        opacity: 0.8;
+        display: flex;
+        justify-content: center;
+        color: #5BDA54;
+        font-family: Verdana;
+        font-size: 28px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@  m o b i l e  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@  m o b i l e  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@  m o b i l e  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+@media (max-width:600px) {
+    body {
+        height: 100%;
+    }
+    .nav {
+        display: none;
+    }
+    .section {
+        display: flex;
+    }
+    .feat-box-left {
+        background-image: url("../img/dude.jpg");
+        position: relative;
+        /*background-repeat: no-repeat;*/
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .feat-box-left h1 {
+        font-size: 100%;
+        color: #5BDA54;
+        font-size: 36px;
+        font-family: verdana;
+        font-weight: bold;
+        margin-top: 100px;
+        font-size: 7vw;
+    }
+    .feat-box-left h3 {
+        font-family: verdana;
+        color: #fff;
+        font-size: 20px;
+        margin: 5%;
+        width: 99%;
+        text-align: center;
+        font-size: 4vw;
+    }
+    .sect-banor {
+        display: flex;
+        flex-direction: column;
+    }
+    .banor-left {
+        background-image: url("../img/action.jpg");
+        /*background-repeat: no-repeat;*/
+        width: 100%;
+        height: 180px;
+        background-size: cover;
+    }
+    .banor-right {
+        display: flex;
+        background-color: #cccccc;
+        /*width: 100%;*/
+        /*height: 180px;*/
+        /*font-family: verdana;*/
+        /*font-size: 20px*/
+        /*color: #fff;*/
+        flex-direction: column;
+        /*flex-wrap: wrap;*/
+        /*justify-content:space-around;*/
+    }
+    .banor-right .btn-box {
+        display: flex;
+        margin: 3%;
+        justify-content: center;
+    }
+    h2 {
+        text-align: center;
+        color: #5BDA54;
+        font-size: 28px;
+        font-family: verdana;
+        font-weight: bold;
+        margin: 1%;
+    }
+    ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        /*justify-content: center;*/
+        /*margin-bottom:10%;*/
+        /*margin:5%;*/
+    }
+    li {
+        display: flex;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        /*padding-top: 5px;*/
+        letter-spacing: 3px;
+        margin-left: 10px;
+        font-size: 20px;
+        /*font-size: 5vw;*/
+        padding: 1.5%;
+        font-family: Verdana;
+        font-weight: thin;
+    }
+    .btn {
+        font-family: Verdana;
+        line-height: 2;
+        display: block;
+        text-align: center;
+        background: #5BDA54;
+        margin: 5px;
+        /*border: solid thick green;*/
+        border-radius: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+        width: 200px;
+        padding: 2px;
+    }
+    .sect-teaser {
+        display: flex;
+        flex-direction: column;
+    }
+    .teaser-1 {
+        background-image: url("../img/ready.jpg");
+        /*background-repeat: no-repeat;*/
+        position: relative;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+    }
+    .teaser-2 {
+        background-image: url("../img/guns.jpg");
+        /*background-repeat: no-repeat;*/
+        width: 100%;
+        height: 200px;
+    }
+    .teaser-2 a {
+        background: rgba(00, 0, 0, 0.6);
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        color: #5BDA54;
+        font-family: Verdana;
+        font-size: 28px;
+        font-size: 5.7vw;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .teaser-1 a {
+        background: rgba(00, 0, 0, 0.6);
+        padding: 10px;
+        opacity: 0.8;
+        display: flex;
+        justify-content: center;
+        color: #5BDA54;
+        font-family: Verdana;
+        font-size: 28px;
+        font-size: 5.7vw;
+        /*font-size: 4vw;*/
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
