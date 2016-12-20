@@ -1,4 +1,4 @@
-# Patrask
+# Patrask - OskarJ, SebbeP, OscarÖ
 ## Uppgift
 Ni ska mobilanpassa en webbsida enligt 2 medföljande bilder.
 

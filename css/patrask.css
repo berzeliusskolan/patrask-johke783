@@ -1,0 +1,240 @@
+img {
+    max-width:100%;
+}
+.nav {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    background-color: #31343F;
+    font-weight: bold;
+}
+
+.nav-link { 
+    font-family: Verdana;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding:10px;
+}
+
+.active {
+    color: #5BDA54;
+}
+
+.feat .btn{
+    color: #fff;
+    font-family: Verdana;
+    font-size: 12px; 
+    font-weight: bold;
+    text-decoration:none;
+    display: block;
+    width:25%;
+    background: #5BDA54;
+    padding:10px;
+    border-radius: 7px;
+}
+
+.feat {
+    background-color: #31343F;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    width: 700px;
+}
+
+.sect-banor {
+    display: flex;
+    background-color: #31343F;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 700px;
+}
+
+body {
+    background-color: #31343F;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.feat-box-right {
+    background: url("../img/dude.jpg");
+    width: 30%;
+    height: 400px;
+    background-size:cover;
+    background-position:center;
+}
+
+.feat{
+    display: flex;
+}
+
+.banor-left{
+    background: url("../img/action.jpg");
+    height: 251px;
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banor-right {
+    background-color: #CCCCCC;
+    color: black;
+    flex-wrap: wrap;
+    width: 30%;
+    height:252px;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.banor-right .btn{
+    color: #fff;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration:none;
+    display: block;
+    width:25%;
+    background: #5BDA54;
+    padding:10px;
+    border-radius: 7px;
+    display: flex;
+    : center;
+}
+
+h1 {
+    color: #5BDA54;
+    font-size: 36px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin:30px;
+}
+
+h2{
+    color: #5BDA54;
+    font-size: 28px;
+    font-family: Verdana;
+    font-weight: bold;
+} 
+
+h3 {
+    color: #fff;
+    font-size: 20px;
+    font-family: Verdana;
+    padding:20px;
+}
+
+.sect-teaser {
+    font-family: Verdana; 
+    background:rgba(0,0,0,0.2);
+    width: 700px;
+    display: flex;
+}
+.sect-teaser a{
+    display: block;
+    color:#5BDA54;
+    text-decoration:none;
+    background:rgba(0,0,0,0.6);
+    height: 30px;
+    font-size: x-large;
+}
+
+.teaser-1 {
+    background: url("../img/ready.jpg");
+    height: 200px;
+    width: 50%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.teaser-2 {
+    background: url("../img/guns.jpg");                                                                                                                                               
+    height: 200px;
+    width: 50%;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 580px){
+.sect-teaser {
+font-family: Verdana; 
+background:rgba(0,0,0,0.2);
+width: 100%;
+display: flex;
+}
+.teaser-1 {
+    background: url("../img/ready.jpg");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.teaser-2 {
+    background: url("../img/guns.jpg");                                                                                                                                               
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.feat {
+    display: flex;
+    background-color: #31343F;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+}
+
+.banor-right {
+    background-color: #CCCCCC;
+    color: black;
+    flex-wrap: wrap;
+    width: 100%;
+    height:252px;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.banor-left{
+    background: url("../img/action.jpg");
+    height: 251px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.feat-box-right {
+    background: url("../img/dude.jpg");
+    width: 100%;
+    height: 400px;
+    background-size:cover;
+    background-position:center;
+}
+
+body {
+    background-color: #31343F;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.sect-banor {
+    background-color: #31343F;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.nav {
+    display:none;
+}
+}
